@@ -1,0 +1,27 @@
+# .gitignore
+
+# Ortam değişkenleri (asla paylaşma)
+.env
+
+# Python sanal ortamı
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Eğitilmiş modeller (büyük dosyalar — Git LFS veya lokal tut)
+models/*.h5
+models/*.keras
+models/*.pt
+
+# Veri seti (büyük olabilir)
+dataset/
+dataset_kaggle/
+
+# Streamlit cache
+.streamlit/
+
+# macOS
+.DS_Store

@@ -1,0 +1,33 @@
+# ================================================
+# Deniz Kaplumbağası Photo-ID Projesi
+# Python Bağımlılıkları
+# ================================================
+
+# --- Görüntü İşleme ---
+opencv-python>=4.9.0.80
+
+# --- Makine Öğrenmesi & Derin Öğrenme ---
+tensorflow==2.21.0
+scikit-learn>=1.4.2
+numpy>=1.26.4
+
+# --- Veri İşleme ---
+pandas>=2.2.2
+Pillow>=10.3.0
+
+# --- Web Arayüzü ---
+streamlit>=1.35.0
+plotly>=5.22.0
+
+# --- Veritabanı (MySQL) ---
+mysql-connector-python>=8.4.0
+SQLAlchemy>=2.0.30
+PyMySQL>=1.1.1
+
+# --- Ortam Değişkenleri ---
+python-dotenv>=1.0.1
+
+# --- Yardımcı ---
+matplotlib>=3.9.0
+seaborn>=0.13.2
+tqdm>=4.66.4
