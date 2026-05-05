@@ -25,3 +25,9 @@ dataset_kaggle/
 
 # macOS
 .DS_Store
+
+# Sunum ve Rapor Dosyaları (Lokalde kalacak, GitHub'da gözükmeyecek)
+SOLID_ANALIZI.md
+TEKNIK_RAPOR.md
+TEKNIK_RAPOR.txt
+PROJE_KODLARI.txt
